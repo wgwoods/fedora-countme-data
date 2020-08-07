@@ -10,6 +10,14 @@ the `mirrors-countme` scripts: https://pagure.io/mirrors-countme/
 
 * `totals.db`: total counts, in a SQLite database
 * `totals.csv`: same, in CSV format (with a header line)
+* `mirrorsdata-2020.csv`: Counts of unique IP addresses, from
+  https://data-analysis.fedoraproject.org/csv-reports/mirrors/mirrorsdata-2020.csv
+* `jupyter/`: [Jupyter] notebooks showing how to use this data
+  * `jupyter/dnf-countme-pandas-demo.ipynb`:
+    how to summarize, slice, and graph data from `totals.csv` in Python, using [pandas]
+
+[Jupyter]: https://jupyter.org/
+[pandas]: https://pandas.pydata.org/
 
 ## What's being counted?
 
